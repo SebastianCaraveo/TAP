@@ -51,6 +51,14 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="css" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -60,7 +68,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1pKSQKMIlVBpF50dsWqoN0jp22d" />
+  <component name="ProjectId" id="1pdu3VfUUCq3FA9hGNJNW1Qq4Wu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -80,8 +88,13 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MegaPaint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sebas\Desktop\TAP\TAP\MegaPaint\src\sample\icono" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -111,7 +124,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="untitled" />
+      <module name="MegaPaint" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -185,49 +198,29 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1615618127991">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1616288411944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1615618127991" />
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom" timestamp="1615277923624">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1616288411944" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1616288411944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.0.center" timestamp="1615277923624">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1616288411944" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1616288411944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.0.left" timestamp="1615277923624">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1616288411944" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1616288411944">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.0.right" timestamp="1615277923624">
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1616288411944" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1616305571579">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1615277923624">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1616305571579" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1615957209479">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1615277923624">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1615277923624">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1615277923624">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1615277923624" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1615617892714">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1615617892714" />
-    <state x="65" y="71" key="new project wizard" timestamp="1615524306620">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="65" y="71" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1615524306620" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1615957209479" />
   </component>
 </project>
