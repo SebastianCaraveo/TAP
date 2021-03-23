@@ -31,7 +31,7 @@ public class Controller {
                pintarDibujos(t1.intValue());
            }
        });
-        comboOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella","Estrella Doble");
+        comboOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella","Estrella Doble","Curva","Estrella Tapiz");
 
         /*context.setFill(Color.BLUE);
         context.fillRect(10,20,100,50);
@@ -58,14 +58,21 @@ public class Controller {
             }
         } else if(comboOpciones.getSelectionModel().getSelectedIndex()==1){
             //Ajedrez
-            for(int x=0;x<valor;x++){
-              /* int division= (int) lienzo.getWidth()/valor;
-                context.strokeLine(0,division*x,lienzo.getWidth(),division*x);
-                context.strokeLine(division*x,0,division*x,lienzo.getHeight());*/
-             /*if(x!=0){
-                  context.fillRect();
-              }*/
+            int espacio=2*valor;
+            context.fillRect(0,0,lienzo.getWidth(), lienzo.getHeight());
+            for(int x=0;x<lienzo.getWidth();x++){
+                for(int y=0; y<=lienzo.getWidth(); y+=espacio){
+                    context.clearRect(x,y,valor,valor);
 
+                }
+
+
+            }
+
+            for(int x=valor; x<=lienzo.getWidth(); x+=espacio){
+                for(int y=valor; y<=lienzo.getWidth(); y+=espacio){
+                    context.clearRect(x,y,valor,valor);
+                }
             }
 
 
@@ -100,12 +107,26 @@ public class Controller {
                 context.strokeLine(mitadAncho,lienzo.getWidth()-(divisiones*i),mitadAncho-(divisiones*i),mitadAlto);
                 context.strokeLine(mitadAlto,divisiones*i,mitadAncho-(divisiones*i),mitadAncho);
                 context.strokeLine(mitadAncho,lienzo.getWidth()-(divisiones*i),mitadAncho+(divisiones*i),mitadAlto);
-                context.strokeLine(lienzo.getWidth(),lienzo.getHeight(),mitadx2Ancho+(divisiones*i)/2,mitadAlto);
-                context.strokeLine(mitadAncho,mitadAlto,lienzo.getHeight(),mitadx2Alto-(divisiones*i));
+               // context.strokeLine(lienzo.getWidth(),lienzo.getHeight(),mitadx2Ancho+(divisiones*i),mitadAlto);
+                context.strokeLine(mitadAlto+(divisiones*i),mitadAncho+(divisiones*i),lienzo.getHeight(),lienzo.getWidth());
+               // context.strokeLine(mitadAncho,mitadAlto,lienzo.getHeight(),mitadx2Alto-(divisiones*i));
             }
 
 
 
+        }
+        else if(comboOpciones.getSelectionModel().getSelectedIndex()==4){
+            //Curvas
+            int divisiones=(int)lienzo.getWidth()/valor;
+            for (int x=1;x<valor+1;x++){
+                context.strokeLine(0,divisiones*x,divisiones*x,lienzo.getHeight());
+                context.strokeLine(lienzo.getWidth(),divisiones*x,lienzo.getWidth()-(divisiones*x),lienzo.getHeight());
+                context.strokeLine(0,lienzo.getWidth()-(divisiones*x),divisiones*x,0);
+                context.strokeLine(lienzo.getWidth(),lienzo.getWidth()-(divisiones*x),lienzo.getWidth()-(divisiones*x),0);
+            }
+        }
+        else if (comboOpciones.getSelectionModel().getSelectedIndex()==5){
+            //Estrella Tapiz
         }
 
     }
