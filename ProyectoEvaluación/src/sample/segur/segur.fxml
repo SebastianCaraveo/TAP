@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stackePane" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.segur.Segur">
+   <children>
+      <AnchorPane fx:id="anchorPane" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #646165;">
+         <children>
+            <VBox alignment="CENTER" layoutX="372.0" prefHeight="500.0" prefWidth="100.0" style="-fx-background-color: #009FB7;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="372.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#regresar" prefHeight="50.0" prefWidth="50.0" styleClass="buttonreturn" stylesheets="@../estilos/styles.css" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+            <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="37.0" onAction="#loadDialog" prefHeight="90.0" prefWidth="343.0" ripplerFill="#114a1400" style="-fx-background-color: #EFF1F3;" text="Informática">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="205.0" onAction="#loadDialog2" prefHeight="90.0" prefWidth="343.0" ripplerFill="#114a1400" style="-fx-background-color: #EFF1F3;" text="Covid-19">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="367.0" onAction="#loadDialog3" prefHeight="90.0" prefWidth="343.0" ripplerFill="#114a1400" style="-fx-background-color: #EFF1F3;" text="Trabajo">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

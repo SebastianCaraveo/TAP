@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stackPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.principal.Principal">
+   <children>
+      <AnchorPane fx:id="anchorPane" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <bottom>
+                  <HBox prefHeight="143.0" prefWidth="600.0" spacing="40.0" styleClass="bgBotones" stylesheets="@../estilos/styles.css" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXButton fx:id="prog" onAction="#programac" prefHeight="80.0" prefWidth="80.0" styleClass="buttonCodig" stylesheets="@../estilos/styles.css">
+                           <HBox.margin>
+                              <Insets left="25.0" top="25.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <JFXButton fx:id="inform" onAction="#informatic" prefHeight="80.0" prefWidth="80.0" styleClass="buttonInformatic" stylesheets="@../estilos/styles.css" textFill="#ffffff00">
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <JFXButton fx:id="seguridad" onAction="#security" prefHeight="80.0" prefWidth="80.0" styleClass="buttonHealth" stylesheets="@../estilos/styles.css" textFill="#ffffff00">
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <JFXButton fx:id="ajustes" onAction="#config" prefHeight="80.0" prefWidth="80.0" styleClass="buttonConfig" stylesheets="@../estilos/styles.css" textFill="#ffffff00">
+                           <HBox.margin>
+                              <Insets top="25.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets />
+                     </BorderPane.margin>
+                  </HBox>
+               </bottom>
+               <right>
+                  <VBox alignment="TOP_CENTER" prefHeight="357.0" prefWidth="120.0" spacing="20.0" style="-fx-background-color: #646165;" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXButton fx:id="profile" onAction="#salir" prefHeight="50.0" prefWidth="50.0" styleClass="buttonuser" stylesheets="@../estilos/styles.css">
+                           <VBox.margin>
+                              <Insets top="30.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <Label fx:id="lblName" text="Label" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </right>
+               <left>
+                  <VBox alignment="CENTER" prefHeight="214.0" prefWidth="151.0" spacing="50.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <JFXDatePicker defaultColor="#009fb7" promptText="Fecha" />
+                        <JFXTimePicker promptText="Hora" />
+                        <JFXButton buttonType="RAISED" onAction="#guardarR" ripplerFill="WHITE" style="-fx-background-color: #009FB7;" text="Guardar Registro" textFill="#eff1f3">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" onAction="#registros" ripplerFill="WHITE" style="-fx-background-color: #009FB7;" text="Registros" textFill="#eff1f3">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                     <BorderPane.margin>
+                        <Insets left="10.0" />
+                     </BorderPane.margin>
+                  </VBox>
+               </left>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

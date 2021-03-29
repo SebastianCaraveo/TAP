@@ -6,6 +6,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.JavaFXBuilderFactory;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.control.ColorPicker;
@@ -31,7 +32,7 @@ public class Controller {
                pintarDibujos(t1.intValue());
            }
        });
-        comboOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella","Estrella Doble","Curva","Estrella Tapiz");
+        comboOpciones.getItems().addAll("Cuadricula","Ajedrez","Estrella","Estrella Doble","Curva","Estrella Tapiz","Circulos");
 
         /*context.setFill(Color.BLUE);
         context.fillRect(10,20,100,50);
@@ -128,8 +129,26 @@ public class Controller {
         else if (comboOpciones.getSelectionModel().getSelectedIndex()==5){
             //Estrella Tapiz
         }
+        else if(comboOpciones.getSelectionModel().getSelectedIndex()==6) {
+            // Exentar
+            /*double C = 360 / valor;
+            double Ax = lienzo.getWidth() / 4;
+            double Ay = lienzo.getHeight() / 4;
+            double r = Math.toRadians(0);
+            double x = Math.round(Ax * Math.cos(r));
+            double y = (Ay * Math.sin(r));
+            while (r<=2*Math.PI) {
+                context.strokeOval(x + lienzo.getWidth() / 4, y + lienzo.getHeight() / 4, lienzo.getWidth() / 2, lienzo.getHeight() / 2);
+                r=r+Math.toRadians(C);
+                x=Math.round(Ax*Math.cos(r));
+                y=(Ay*Math.sin(r));
+
+            }*/
+            
+        }
 
     }
+
 
     public void cambiarColor(ActionEvent event){
         colorPincel=colorPicker.getValue();

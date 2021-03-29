@@ -1,0 +1,61 @@
+.fondoLogin{
+-fx-background-color: linear-gradient(from 150px 250px to 150px 50px, #009FB7, #EFF1F3);
+}
+
+.buttonLogin{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/login.png");
+}
+.buttonConfig{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/config.png");
+}
+.buttonHealth{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/hospital.png");
+}
+.buttonCodig{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/codigo.png");
+}
+.buttonInformatic{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/computer.png");
+}
+.buttonreturn{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/regreso.png");
+}
+.buttonuser{
+-fx-background-radius: 100px;
+-fx-background-image: url("../iconos/user.png");
+}
+
+.bgBotones{
+-fx-background-color: #009FB7;
+}
+
+
+
+.slider{
+.jfx-slider > .track {
+     -fx-background-color: yellow;
+}
+
+.jfx-slider > .thumb {
+     -fx-background-color: #009FB7;
+}
+
+.jfx-slider > .colored-track {
+     -fx-background-color: #009FB7;
+}
+
+.jfx-slider > .animated-thumb {
+     -fx-background-color: #009FB7;
+}
+
+.jfx-slider .slider-value {
+     -fx-fill: white;
+     -fx-stroke: white;
+}
+}
