@@ -10,6 +10,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <StackPane fx:id="stackPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.principal.Principal">
    <children>
@@ -62,8 +63,16 @@
                      <children>
                         <JFXDatePicker defaultColor="#009fb7" promptText="Fecha" />
                         <JFXTimePicker promptText="Hora" />
-                        <JFXButton buttonType="RAISED" onAction="#guardarR" ripplerFill="WHITE" style="-fx-background-color: #009FB7;" text="Guardar Registro" />
-                        <JFXButton buttonType="RAISED" onAction="#registros" ripplerFill="WHITE" style="-fx-background-color: #009FB7;" text="Registros" />
+                        <JFXButton buttonType="RAISED" onAction="#guardarR" ripplerFill="WHITE" style="-fx-background-color: #009FB7;" text="Guardar Registro" textFill="#eff1f3">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" onAction="#registros" ripplerFill="WHITE" style="-fx-background-color: #009FB7;" text="Registros" textFill="#eff1f3">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </JFXButton>
                      </children>
                      <BorderPane.margin>
                         <Insets left="10.0" />

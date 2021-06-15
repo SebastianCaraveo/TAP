@@ -59,3 +59,12 @@
      -fx-stroke: white;
 }
 }
+.btnEditar{
+ -fx-background-color:#0d46a1;
+  -fx-text-fill:#FFFFFF
+  }
+
+.btnEliminar{
+  -fx-background-color:#fc033d;
+  -fx-text-fill:#FFFFFF
+   }

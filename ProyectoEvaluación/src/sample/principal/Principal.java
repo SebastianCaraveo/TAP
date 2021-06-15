@@ -30,6 +30,7 @@ public class Principal {
     @FXML Button prog, inform, seguridad, ajustes, profile;
     @FXML Label lblName;
 
+
     @FXML protected void initialize(){
         lblName.setText(Main.nombreUsuario);
     }
@@ -144,3 +145,4 @@ public class Principal {
         Main.stage.setScene(scene);
     }
 }
+
